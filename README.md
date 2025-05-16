@@ -1,4 +1,4 @@
-# 🧠 DeepInsights: Advanced NLP & Vision Projects
+# 🧠 DeepInsights: Advanced NLP, Vision & RL Projects
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange)
