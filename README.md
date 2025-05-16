@@ -42,15 +42,36 @@ Comparative study of DQN and A2C algorithms in the CarRacing-v3 environment:
 - **Environment**: Gymnasium's CarRacing-v3 with frame stacking and preprocessing
 - **Analysis**: Comprehensive comparison of performance, training stability, and computational requirements
 
+### 4️⃣ AI202 Project: Toxic Comment Classification
+
+Implementation of advanced NLP models for detecting toxic content in online comments:
+
+- **BERT Implementation**: Fine-tuning of BERT base model for multi-label text classification
+- **LSTM Approach**: Recurrent neural network with word embeddings for sequence analysis
+- **Data Processing**: Comprehensive text cleaning, tokenization, and preprocessing pipeline
+- **Performance**: High accuracy in identifying multiple categories of toxic content (toxic, severe toxic, obscene, threat, insult, identity hate)
+
+### 5️⃣ OS Project: Cybersecurity and Malware Detection
+
+Multi-faceted approach to cybersecurity challenges using machine learning:
+
+- **Malware Image Classification**: CNN-based detection using visual representations of malware
+- **Text Classification Models**: BERT and LSTM implementations for security-related text analysis
+- **Feature Fusion**: Innovative combination of different data modalities for enhanced detection
+- **Documentation**: Detailed project report with methodology, results, and security implications
+
 ## 🛠️ Technologies
 
-- **Deep Learning**: PyTorch, Transformers, TensorFlow
+- **Deep Learning**: PyTorch, Transformers, TensorFlow, Keras
 - **Efficient Fine-tuning**: Unsloth, LoRA (Low-Rank Adaptation)
 - **Vector Search**: FAISS
 - **RAG Pipeline**: LangChain
 - **Experiment Tracking**: Weights & Biases
-- **Vision Models**: Timm library
+- **Vision Models**: Timm library, CNN architectures
 - **Reinforcement Learning**: Gymnasium, OpenAI environments
+- **NLP Models**: BERT, LSTM, Word Embeddings
+- **Text Processing**: NLTK, Gensim, Tokenizers
+- **Cybersecurity**: Malware visualization, Feature fusion techniques
 
 ## 📊 Results
 
@@ -59,6 +80,9 @@ All projects demonstrate the power of advanced architectures when applied to spe
 - The NLP model shows enhanced reasoning capabilities for complex medical questions
 - The Vision Transformer achieves high accuracy in COVID-19 detection from ultrasound images
 - The RL implementations provide insights into the trade-offs between value-based and policy-based approaches for autonomous racing
+- The AI202 toxic comment classification models achieve over 98% AUC scores across all toxicity categories
+- The BERT implementation outperforms the LSTM model in text classification tasks, particularly for complex linguistic patterns
+- The OS project's malware detection system demonstrates the effectiveness of visual representation techniques for cybersecurity applications
 
 ## 🔍 Getting Started
 
@@ -70,6 +94,12 @@ Each project directory contains detailed Jupyter notebooks and documentation:
 - `RL/a2c.ipynb`: Implementation of the Advantage Actor-Critic algorithm
 - `RL/dqn.ipynb`: Implementation of the Deep Q-Network algorithm
 - `RL/main.tex`: Research paper comparing DQN and A2C performance
+- `AI202/bert-for-accuracy-improvement.ipynb`: BERT implementation for toxic comment classification
+- `AI202/LSTM-Model.ipynb`: LSTM-based approach for text classification
+- `OS/bert-for-accuracy-improvement.ipynb`: BERT model for text classification
+- `OS/LSTM-Model.ipynb`: LSTM implementation for text analysis
+- `OS/conv-featurefusuion.ipynb`: CNN-based approach for malware detection
+- `OS/Project-Report.pdf`: Comprehensive documentation of the OS project
 
 ## 📚 Requirements
 
@@ -83,3 +113,8 @@ See requirements.txt for a complete list of dependencies.
 - [RAG: Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401)
 - [Deep Q-Network](https://www.nature.com/articles/nature14236)
 - [Advantage Actor-Critic](https://arxiv.org/abs/1602.01783)
+- [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805)
+- [LSTM Networks for Sentiment Analysis](https://arxiv.org/abs/1801.07883)
+- [Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
+- [Malware Classification Using CNN](https://arxiv.org/abs/1802.04528)
+- [Feature Fusion Techniques for Deep Learning](https://arxiv.org/abs/1901.06625)
