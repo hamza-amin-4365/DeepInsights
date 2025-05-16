@@ -56,7 +56,7 @@ Implementation of advanced NLP models for detecting toxic content in online comm
 Multi-faceted approach to cybersecurity challenges using machine learning:
 
 - **Malware Image Classification**: CNN-based detection using visual representations of malware
-- **Text Classification Models**: BERT and LSTM implementations for security-related text analysis
+- **Data Augmentation**: Advanced techniques for generating diverse training samples
 - **Feature Fusion**: Innovative combination of different data modalities for enhanced detection
 - **Documentation**: Detailed project report with methodology, results, and security implications
 
@@ -96,8 +96,6 @@ Each project directory contains detailed Jupyter notebooks and documentation:
 - `RL/main.tex`: Research paper comparing DQN and A2C performance
 - `AI202/bert-for-accuracy-improvement.ipynb`: BERT implementation for toxic comment classification
 - `AI202/LSTM-Model.ipynb`: LSTM-based approach for text classification
-- `OS/bert-for-accuracy-improvement.ipynb`: BERT model for text classification
-- `OS/LSTM-Model.ipynb`: LSTM implementation for text analysis
 - `OS/conv-featurefusuion.ipynb`: CNN-based approach for malware detection
 - `OS/Project-Report.pdf`: Comprehensive documentation of the OS project
 
